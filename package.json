@@ -1,7 +1,7 @@
 {
   "name": "wiwi",
-  "version": "1.0.0",
-  "description": "wiwei webpack",
+  "version": "1.0.1",
+  "description": "wiwi webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +12,22 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "bin": {
+    "wiwi": "./bin/wiwi"
+  },
   "bugs": {
     "url": "https://github.com/wiwi-webpack/wiwi/issues"
   },
-  "homepage": "https://github.com/wiwi-webpack/wiwi#readme"
+  "homepage": "https://github.com/wiwi-webpack/wiwi#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "resolve": "^1.8.1",
+    "semver": "^5.5.1"
+  }
 }
