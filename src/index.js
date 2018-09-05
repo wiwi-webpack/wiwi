@@ -70,7 +70,7 @@ if (!argvs.slice(2).length) {
 function findPluginPath(command) {
     if (command && /^\w+$/.test(command)) {
         try {
-            return resolve.sync('wiwi' + command, {
+            return resolve.sync('wiwi-' + command, {
                 paths: moduleDirs
             });
         } catch (e) {
