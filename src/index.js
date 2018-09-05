@@ -26,7 +26,7 @@ var moduleDirs = [
     path.join(__dirname, '..', '..')
 ];
 
-process._moduleDirs = moduleDirs;
+program._moduleDirs = moduleDirs;
 
 var pluginPath = findPluginPath(command);
 
